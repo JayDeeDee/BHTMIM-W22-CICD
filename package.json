@@ -1,0 +1,53 @@
+{
+  "name": "bhtmim-w22-cicd",
+  "version": "0.0.1",
+  "description": "Assigment 'Build management' in the course 'Methods & tools of modern software development'",
+  "scripts": {
+    "start": "gulp INIT",
+    "test": "jest",
+    "test:gulpbuild": "jest gulp.test.js",
+    "test:snowpackbuild": "jest snowpack.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayDeeDee/BHTMIM-W22-Sub.git"
+  },
+  "keywords": [
+    "build management",
+    "gulp",
+    "grunt"
+  ],
+  "author": "Jana Deutschlaender",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JayDeeDee/BHTMIM-W22-Sub/issues"
+  },
+  "homepage": "https://github.com/JayDeeDee/BHTMIM-W22-Sub#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.5.0",
+    "bootstrap": "^5.2.3",
+    "browser-sync": "^2.27.11",
+    "cssnano": "^4.1.10",
+    "del": "^4.0.0",
+    "dotenv": "^16.0.3",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-jest": "^4.0.4",
+    "gulp-minify": "^3.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-order": "^1.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-size": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "jest": "^24.9.0",
+    "postcss-assets": "^5.0.0",
+    "prettier": "^2.8.2",
+    "usedcss": "^1.0.7"
+  },
+  "volta": {
+    "node": "10.24.1"
+  },
+  "dependencies": {}
+}
