@@ -3,7 +3,7 @@
 #  - cache/restore dependencies
 #  - build the source code
 #  - run tests on node 10
-name: Frontend Tooling Build and Test CI/CD
+name: frontend tooling build and test ci/cd
 
 on:
   push:
