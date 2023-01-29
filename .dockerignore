@@ -1,0 +1,14 @@
+# **********************************************************************************
+# prevents files such as local modules, debug logs, readme.md etc from being
+# copied onto the Docker image
+# **********************************************************************************
+node_modules
+npm-debug.log
+# ignore .git folders
+.git
+# ignore all markdown files (md) except README files other than README-secret.md
+*.md
+!README*.md
+README-secret.md
+# github related files
+.github/
