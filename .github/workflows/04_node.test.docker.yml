@@ -6,7 +6,7 @@
 #  - build a docker images
 #  - pushes the new docker image to docker hub
 
-name: frontend tooling build and test ci/cd
+name: frontend tooling build and test with docker deploy ci/cd
 
 on:
   push:
@@ -31,7 +31,7 @@ jobs:
           cache: 'npm'
       - name: install dependencies
         run: |
-          npm install -g grunt
+          npm install -g gulp
           npm install -g node-sass
           npm install
           npm ci
